@@ -4,6 +4,7 @@ data class Word(
     val word: String,
     val phonetic: String?,
     val origin: String?,
-    val meanings: List<Meaning>
+    val meanings: List<Meaning>,
+    val phonetics: List<Phonetic>
 )
 
